@@ -1,0 +1,28 @@
+.row {
+    margin: 0 0 20px;
+}
+
+.row::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+.column {
+    background-color: rgb(98,125,77);
+    height: 200px;
+    width: 23%;
+    /*display: inline-block;*/
+    float: left;
+    margin: 0 1%;
+}
+
+/*
+.column:first-child {
+    margin-left: 0;
+}
+
+.column:last-child {
+    margin-right: 0;
+}*/
