@@ -1,7 +1,7 @@
 .row {
     margin: 0 0 20px;
     font-size: 0;
-    text-align: center;
+    display: flex;
 }
 
 /*.row::after {
